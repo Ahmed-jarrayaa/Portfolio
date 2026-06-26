@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Jarraya — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+<div class="bg-mesh"></div>
+
+<!-- MOBILE NAV OVERLAY -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" onclick="toggleMobileNav()">✕</button>
+  <a href="#home" onclick="toggleMobileNav()">Home</a>
+  <a href="#about" onclick="toggleMobileNav()">About</a>
+  <a href="#skills" onclick="toggleMobileNav()">Skills</a>
+  <a href="#experience" onclick="toggleMobileNav()">Experience</a>
+  <a href="#projects" onclick="toggleMobileNav()">Projects</a>
+  <a href="#education" onclick="toggleMobileNav()">Education</a>
+  <a href="#certifications" onclick="toggleMobileNav()">Certifications</a>
+  <a href="#contact" onclick="toggleMobileNav()">Contact</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo">AJ</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <button class="nav-mobile-btn" onclick="toggleMobileNav()">☰</button>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-text fade-up">
+        <div class="hero-eyebrow">Available for InternShip</div>
+        <h1 class="hero-name">
+          Ahmed<br>
+          <span class="gradient-text">Jarraya</span>
+        </h1>
+        <p class="hero-role">Applied Mathematics and AI Engineering student </p>
+        <p class="hero-desc">
+          Building intelligent systems at the intersection of machine learning and scalable engineering. Passionate about turning complex problems into elegant solutions.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View My Work →</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual fade-up" style="transition-delay:0.15s">
+        <div class="orb-wrap">
+          <div class="orb-ring"></div>
+          <div class="orb-ring2"></div>
+          <div class="orb"></div>
+          <div class="orb-inner">
+            <div class="orb-avatar">🧑‍💻</div>
+            <div class="orb-name">Ahmed Jarraya</div>
+            <div class="orb-title"></div>
+          </div>
+        </div>
+        <div class="floating-badge glass-card fb1">
+          <a href="https://www.linkedin.com/in/jarraya-ahmed-836601368/" target="_blank">
+          <span><img src="Linkedin.png" alt="Logo"></span></a>
+        </div>
+        <div class="floating-badge glass-card fb2">
+          <a href="https://github.com/Ahmed-jarrayaa" target="_blank">
+          <span><img src="github.png" alt="Logo"></span></a> </div>
+        <div class="floating-badge glass-card fb3">
+          <a href="mailto:jarrayaahmed88@gmail.com" target="_blank">
+          <span><img src="gmail.png" alt="Logo"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item fade-up">
+        <div class="stat-num">Applied Mathematics & AI Engineering Student</span></div>
+        <div class="stat-label"></div>
+      </div>
+      <div class="stat-item fade-up" style="transition-delay:0.1s">
+        <div class="stat-num">4<span>+</span></div>
+        <div class="stat-label">Projects Completed</div>
+      </div>
+      <div class="stat-item fade-up" style="transition-delay:0.2s">
+        <div class="stat-num">3<span>+</span></div>
+        <div class="stat-label">Certifications Earned</div>
+      </div>
+      <div class="stat-item fade-up" style="transition-delay:0.3s">
+        <div class="stat-num">1</div>
+        <div class="stat-label">Internships</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-photo-wrap fade-up">
+        <div class="about-photo">
+          <span style="font-size:5rem;z-index:1;position:relative"><img src="Bouhmid.jpg" alt="Logo"></span>
+          <div class="about-photo-overlay"></div>
+          <div class="about-card-mini glass-card">
+            <h4>Ahmed Jarraya</h4>
+            <p>Applied Mathematics and AI Engineering student</p>
+          </div>
+        </div>
+      </div>
+      <div class="fade-up" style="transition-delay:0.15s">
+    <div class="section-label">// About Me</div>
+
+    <h2 class="section-title">
+        Transforming mathematics into<br>
+        <span style="background:linear-gradient(135deg,var(--indigo),var(--cyan));background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent">
+            AI-driven solutions
+        </span>
+    </h2>
+
+    <p class="about-text">
+        I'm an <span class="highlight-text">Applied Mathematics and AI Engineering student</span> passionate about developing intelligent systems that solve real-world problems. My interests include Machine Learning, Deep Learning, Computer Vision, Data Science, and mathematical modeling.
+    </p>
+
+    <div class="about-tags">
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Deep Learning</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">Data Science</span>
+        <span class="tag">Mathematical Modeling</span>
+        <span class="tag">Python</span>
+        <span class="tag">Streamlit</span>
+        <span class="tag">AI Engineering</span>
+    </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-label">// Technical Skills</div>
+      <h2 class="section-title">Tools of the trade</h2>
+      <p class="section-sub">Technologies and frameworks I work with regularly, from systems programming to cloud infrastructure.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category glass-card cat-indigo fade-up">
+        <div class="skill-cat-icon">💻</div>
+        <div class="skill-cat-title">Programming Languages</div>
+        <div class="skill-items">
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">Java</span><span class="skill-chip">C++</span>
+          <span class="skill-chip">R</span><span class="skill-chip">C</span>
+        </div>
+      </div>
+      <div class="skill-category glass-card cat-purple fade-up" style="transition-delay:0.05s">
+        <div class="skill-cat-icon">🤖</div>
+        <div class="skill-cat-title">AI Frameworks</div>
+        <div class="skill-items">
+          <span class="skill-chip">PyTorch</span><span class="skill-chip">TensorFlow</span>
+
+          <span class="skill-chip">scikit-learn</span>
+          <span class="skill-chip">Pandas</span>
+        </div>
+      </div>
+      <div class="skill-category glass-card cat-cyan fade-up" style="transition-delay:0.1s">
+        <div class="skill-cat-icon">🌐</div>
+        <div class="skill-cat-title">Web</div>
+        <div class="skill-items">
+          <span class="skill-chip">HTML</span><span class="skill-chip">PHP</span>
+          <span class="skill-chip">CSS</span>
+          <span class="skill-chip">JavaScript</span>
+          <span class="skill-chip">React</span>
+        </div>
+      </div>
+      <div class="skill-category glass-card cat-green fade-up" style="transition-delay:0.15s">
+        <div class="skill-cat-icon"><img src="ai.png" alt="Logo"></div>
+        <div class="skill-cat-title">AI Technologies</div>
+        <div class="skill-items">
+          <span class="skill-chip">Machine Learning</span>
+          <span class="skill-chip">Deep Learning</span>
+          <span class="skill-chip">Computer Vision</span>
+          <span class="skill-chip">LLMs</span>
+        </div>
+      </div>
+      <div class="skill-category glass-card cat-amber fade-up" style="transition-delay:0.2s">
+        <div class="skill-cat-icon"><img src="database.png" alt="Logo"></div>
+        <div class="skill-cat-title">Databases</div>
+        <div class="skill-items">
+          <span class="skill-chip">MySQL</span>
+          <span class="skill-chip">PL/SQL</span>
+          <span class="skill-chip">SQL</span>
+          <span class="skill-chip">Oracle</span>
+        </div>
+      </div>
+      <div class="skill-category glass-card cat-pink fade-up" style="transition-delay:0.25s">
+  <div class="skill-cat-icon">🧠</div>
+  <div class="skill-cat-title">Soft Skills</div>
+
+  <div class="skill-items">
+    <span class="skill-chip">Problem Solving</span>
+    <span class="skill-chip">Adaptability</span>
+    <span class="skill-chip">Perseverance</span>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-label">// Experience</div>
+      <h2 class="section-title">Where I've worked</h2>
+      <p class="section-sub">Internships and roles where I built real products and learned from exceptional teams.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot glass-card" style="font-size:1.1rem">🔵</div>
+        <div class="timeline-content glass-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Web Development Intern</div>
+              <div class="exp-company">MTD GROUPE</div>
+            </div>
+            <div class="exp-date">August 2025</div>
+          </div>
+          <p class="exp-desc">Developed a meeting management web application featuring a real-time notification system for upcoming meetings and schedule changes. Built using PHP, MySQL, CSS, JavaScript, and deployed locally with XAMPP and phpMyAdmin for database management.</p>
+          <div class="exp-tags">
+            <span class="exp-tag">CSS</span><span class="exp-tag">MySQL</span>
+            <span class="exp-tag">JavaScript</span><span class="exp-tag">XAMPP</span>
+            <span class="exp-tag">PHP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-label">// Projects</div>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-sub">
+        A selection of machine learning, deep learning, and computer vision projects developed during my engineering studies.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card glass-card fade-up">
+        <div class="project-top">
+          <div class="project-icon">❤️</div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="GitHub">⌥</a>
+            <a href="#" class="proj-link" title="Demo">↗</a>
+          </div>
+        </div>
+
+        <div class="project-title">
+          Cardiac Anomaly Detection using ECG Signals
+        </div>
+
+        <p class="project-desc">
+          Developed a machine learning model for detecting cardiac anomalies
+          from ECG signals. Compared multiple classification algorithms,
+          including Random Forest, Support Vector Machine (SVM), and Logistic
+          Regression, to identify the most accurate predictive model.
+        </p>
+
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Machine Learning</span>
+          <span class="project-tag">Random Forest</span>
+          <span class="project-tag">SVM</span>
+          <span class="project-tag">Logistic Regression</span>
+          <span class="project-tag">ECG</span>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card glass-card fade-up" style="transition-delay:0.08s">
+        <div class="project-top">
+          <div class="project-icon">🚶</div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="GitHub">⌥</a>
+            <a href="#" class="proj-link" title="Demo">↗</a>
+          </div>
+        </div>
+
+        <div class="project-title">
+          Human Fall Detection using Computer Vision
+        </div>
+
+        <p class="project-desc">
+          Designed an AI-powered fall detection system using a video dataset.
+          Combined YOLOv8 for human detection with a Graph Neural Network (GNN)
+          for action recognition, and developed an interactive Streamlit
+          interface for real-time prediction and visualization.
+        </p>
+
+        <div class="project-tags">
+          <span class="project-tag">YOLOv8</span>
+          <span class="project-tag">GNN</span>
+          <span class="project-tag">Computer Vision</span>
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Streamlit</span>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card glass-card fade-up" style="transition-delay:0.16s">
+        <div class="project-top">
+          <div class="project-icon">📈</div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="GitHub">⌥</a>
+            <a href="#" class="proj-link" title="Demo">↗</a>
+          </div>
+        </div>
+
+        <div class="project-title">
+          Bitcoin Price Prediction
+        </div>
+
+        <p class="project-desc">
+          Built a cryptocurrency price forecasting system using both machine
+          learning and deep learning techniques. Implemented LSTM networks for
+          time-series prediction and created a Streamlit dashboard for
+          interactive forecasting and data visualization.
+        </p>
+
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">LSTM</span>
+          <span class="project-tag">Deep Learning</span>
+          <span class="project-tag">Machine Learning</span>
+          <span class="project-tag">Time Series</span>
+          <span class="project-tag">Streamlit</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<div class="section-divider"></div>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-label">// Education</div>
+      <h2 class="section-title">Academic background</h2>
+      <p class="section-sub">Formal training in data science and mathematics, with a focus on AI systems and theory.</p>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card glass-card fade-up">
+        <div class="edu-header">
+          <div class="edu-logo"><img src="ensitemo.png" alt="Logo"></div>
+          <div>
+            <div class="edu-degree">Applied Mathematics and Modeling Engineering</div>
+            <div class="edu-school">National Higher Engineering School of Tunis-ENSIT</div>
+            <div class="edu-period">Sep 2024 – Jun 2027 (Expected)</div>
+          </div>
+        </div>
+      </div>
+      <div class="edu-card glass-card fade-up" style="transition-delay:0.1s">
+        <div class="edu-header">
+          <div class="edu-logo"><img src="fsslogo.png" alt="Logo"></div>
+          <div>
+            <div class="edu-degree">Bachelor's Degree in Fundamental Mathematics</div>
+            <div class="edu-school">Faculty of Sciences of Sfax - FSS</div>
+            <div class="edu-period">Sep 2021 – Jun 2024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-label">// Certifications</div>
+      <h2 class="section-title">Credentials & courses</h2>
+      <p class="section-sub">Professional certifications from leading platforms and organizations in tech and cloud computing.</p>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card glass-card fade-up">
+        <div class="cert-issuer-row">
+          <div class="cert-logo"><img src="Datacamp.jpg" alt="Logo"></div>
+          <span class="cert-issuer">DataCamp</span>
+        </div>
+        <div class="cert-name">Data Literacy certificate</div>
+      
+        <a href="https://www.datacamp.com/skill-verification/DL0034610427896" class="cert-verify">✓ Verify credential ↗</a>
+      </div>
+      <div class="cert-card glass-card fade-up" style="transition-delay:0.08s">
+        <div class="cert-issuer-row">
+          <div class="cert-logo"><img src="Datacamp.jpg" alt="Logo"></div>
+          <span class="cert-issuer">DataCamp</span>
+        </div>
+        <div class="cert-name">EU AI Act Literacy certificate</div>
+  
+        <a href="https://www.datacamp.com/skill-verification/EU0027731656927" class="cert-verify">✓ Verify credential ↗</a>
+      </div>
+      <div class="cert-card glass-card fade-up" style="transition-delay:0.16s">
+        <div class="cert-issuer-row">
+          <div class="cert-logo"><img src="Datacamp.jpg" alt="Logo"></div>
+          <span class="cert-issuer">DataCamp</span>
+        </div>
+        <div class="cert-name">AI Fundamentals</div>
+    
+        <a href="https://www.datacamp.com/skill-verification/AIF0023838046815" class="cert-verify">✓ Verify credential ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="fade-up">
+        <div class="section-label" style="text-align:center">// Contact</div>
+        <h2 class="section-title">Let's build something</h2>
+        <p class="section-sub">Open to full-time roles, research collaborations, and interesting conversations. Reach out — I usually respond within 24 hours.</p>
+      </div>
+      <div class="contact-links fade-up">
+        <a href="mailto:jarrayaahmed88@gmail.com" class="contact-link glass-card">
+          <div class="contact-link-icon" style="background:rgba(99,102,241,0.15)"><img src="gmail.png" alt="Logo"></div>
+          jarrayaahmed88@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/jarraya-ahmed-836601368/" class="contact-link glass-card">
+          <div class="contact-link-icon" style="background:rgba(6,182,212,0.12)"><img src="Linkedin.png" alt="Logo"></div>
+          LinkedIn
+        </a>
+        <a href="https://github.com/Ahmed-jarrayaa" class="contact-link glass-card">
+          <div class="contact-link-icon" style="background:rgba(255,255,255,0.06)"><img src="github.png" alt="Logo"></div>
+          GitHub
+        </a>
+      </div>
+      <form id="contact-form" class="contact-form glass-card fade-up">
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Name</label>
+      <input
+        type="text"
+        name="name"
+        class="form-input"
+        placeholder="Jane Smith"
+        required>
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input
+        type="email"
+        name="email"
+        class="form-input"
+        placeholder="jane@company.com"
+        required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>Subject</label>
+    <input
+      type="text"
+      name="subject"
+      class="form-input"
+      placeholder="Internship opportunity / Collaboration / Just saying hi"
+      required>
+  </div>
+
+  <div class="form-group">
+    <label>Message</label>
+    <textarea
+      name="message"
+      class="form-input"
+      placeholder="Tell me about your project or opportunity..."
+      required></textarea>
+  </div>
+  <div class="g-recaptcha" data-sitekey="6LflSTctAAAAADDxTH3P5vra6BhMG-gxMOvOeXNt"></div>
+  <button type="submit" class="form-submit">
+      Send Message →
+  </button>
+
+</form> </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>Designed & built by <span>Ahmed Jarraya</span> · 2026 · All rights reserved</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init("W03Vaj1OT24mciAXl");
+</script>
+</body>
+</html>
