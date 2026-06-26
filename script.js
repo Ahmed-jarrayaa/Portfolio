@@ -46,8 +46,8 @@ form.addEventListener("submit", function (e) {
     }
 
     emailjs.sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_ecmxvhr",
+        "template_i6udglj",
         this
     )
     .then(() => {
